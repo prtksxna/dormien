@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #231F20;
+    color: #fff;
+    font-family: 'latohairline', 'Helvetica', Arial, Verdana, sans-serif;
+}
+
+
+/* The time on top */
+#now{
+    height: 30em;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+
+#now h1{
+    font: 15em 'prataregular', 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+#now h1 span{
+    font: 0.5em 'prataregular', 'Georgia', serif;
+    text-style: none;
+}
+#now p{
+    font-family: 'latohairline', 'Helvetica', Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+
+#first{
+    margin: 0;
+    margin-top: 10em;
+}
+
+#first p{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+#first p a{
+    transition: border-left 0.5s ease, border-right 0.5s ease-out;
+    font: 1em 'prataregular', 'Georgia', serif;
+    display: block;
+    background: #fff;
+    color: #231F20;
+    text-decoration: none;
+    border-bottom: 1px solid #231f20;
+    padding: 0.5em;
+    border-left: 0em solid #fff;
+    border-right: 0em solid #fff;
+}
+
+#first p a:hover{
+    border-left: 1em solid #231f20;
+    border-right: 1em solid #231f20;
+}
+
+#first p a:active{
+    border-left: 2em solid #231f20;
+    border-right: 2em solid #231f20;
+}
