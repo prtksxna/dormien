@@ -11,6 +11,54 @@ body{
     font-family: 'latohairline', 'Helvetica', Arial, Verdana, sans-serif;
 }
 
+hr{
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+
+h2{
+    font: 10em 'prataregular', 'Georgia', serif;
+    color: #BCBEC0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 span{
+    font-size: 0.7em;
+}
+
+p{
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+p a{
+    transition: border-left 0.5s ease, border-right 0.5s ease-out;
+    font: 1em 'prataregular', 'Georgia', serif;
+    display: block;
+    background: #fff;
+    color: #231F20;
+    text-decoration: none;
+    border-bottom: 1px solid #231f20;
+    padding: 0.5em;
+    border-left: 0em solid #fff;
+    border-right: 0em solid #fff;
+}
+
+p a:hover{
+    border-left: 1em solid #231f20;
+    border-right: 1em solid #231f20;
+}
+
+p a:active{
+    border-left: 2em solid #231f20;
+    border-right: 2em solid #231f20;
+}
+
 
 /* The time on top */
 #now{
@@ -45,30 +93,11 @@ body{
     margin-top: 10em;
 }
 
-#first p{
-    font-size: 4em;
-    text-transform: uppercase;
+#second{
+    margin: 0;
+    margin-top: 5em;
 }
 
-#first p a{
-    transition: border-left 0.5s ease, border-right 0.5s ease-out;
-    font: 1em 'prataregular', 'Georgia', serif;
-    display: block;
-    background: #fff;
-    color: #231F20;
-    text-decoration: none;
-    border-bottom: 1px solid #231f20;
-    padding: 0.5em;
-    border-left: 0em solid #fff;
-    border-right: 0em solid #fff;
-}
-
-#first p a:hover{
-    border-left: 1em solid #231f20;
-    border-right: 1em solid #231f20;
-}
-
-#first p a:active{
-    border-left: 2em solid #231f20;
-    border-right: 2em solid #231f20;
+#wakeup h1{
+    font: 10em 'prataregular'; 
 }
