@@ -14,15 +14,15 @@
       <h1></h1> <!-- Main time display -->
     </div>
 
-    <div id="first" style="display:none;">
+    <div id="first" class="state">
       <p>
 	I want to&hellip;<br/><br/>
-	<a href="#">Take a Nap</a>
-	<a href="#">Go to Sleep</a>
+	<a href="javascript:void(0);" id="take_a_nap">Take a Nap</a>
+	<a href="javascript:void(0);" id="go_to_sleep">Go to Sleep</a>
       </p>
     </div>
 
-    <div id="second" style="display:none;">
+    <div id="second" class="state">
       <p>
 	I'll sleep for&hellip;
       </p>
@@ -30,11 +30,11 @@
       <p>
 	Swipe vertically to change the time<br/><br/>
 	<a href="#">Okie Dokie!</a>
-	<a href="#">Nope!</a>
+	<a href="javascript:void(0);" id="nope">Nope!</a>
       </p>
     </div>
 
-    <div id="sleeping" style="display:none;">
+    <div id="sleeping" class="state">
       <p>You'll be woken up at</p>
       <h2>6:45<span>PM</span></h2>
       <hr />
@@ -45,8 +45,8 @@
       </p>
     </div>
 
-    <div id="wakeup">
-      <div id="first-wakeup" style="display:none;">
+    <div id="wakeup" class="state">
+      <div id="first-wakeup">
 	<h1>Time to Wake Up!</h1>
       </div>
       <div id="second-wakeup">

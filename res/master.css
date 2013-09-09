@@ -15,7 +15,7 @@ hr{
     border: none;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff; /*TODO make the white a little subtler*/
 }
 
 h2{
