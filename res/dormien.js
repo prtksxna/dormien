@@ -2,6 +2,9 @@ function initFirst(){ // all we need to know if what durtion it was initiated fo
     $(".state").slideUp();
     $("#first").stop().slideDown();
     window.localStorage["state"] = "first";
+
+    // TODO get rid of all alarms
+    // TODO get rid of localstorage stuff that is irrelevant now
 }
 
 function initSecond(d){ // all we need to know if what durtion it was initiated for
