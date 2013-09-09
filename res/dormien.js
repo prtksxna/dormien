@@ -52,7 +52,7 @@ function setupObservers(){
 	var alarm_time = new Date(now.getTime() + (d[0] * 60 * 60000) + (d[1] * 60000) )
 
 	// setup the alarm using mozAlarms
-	var request = navigator.mozAlarms.add(alarm_time, "honorTimezone", {
+/*	var request = navigator.mozAlarms.add(alarm_time, "honorTimezone", {
 	    app: "dormien",
 	    snooze: 0
 	});
@@ -65,7 +65,8 @@ function setupObservers(){
 	request.onerror = function () { 
 	    console.log("An error occurred: " + this.error.name);
 	    initFirst();
-	};	
+	};	*/
+	initSleeping(alarm_time);
     });
     $("#up_already").click(function(e){
 	initFirst();
